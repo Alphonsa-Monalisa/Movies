@@ -17,10 +17,27 @@ const App = () => {
   }, []);
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`, {mode:"cors"})
-    const data = await response.json();
+    const response = await fetch(`${API_URL}&s=${title}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        url: 'https://Alphonsa-Monalisa.github.io/Movies',
+        method: 'GET',
+        headers: { 'Authorization': 'Bearer <token>' },
+        
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        // Process the response data from the API
+        const dataa = response.json();
 
-    setMovies(data.Search);
+        setMovies(dataa.Search);
+      })
+      .catch(error => {
+        console.log(error.message)
+      });
+    
   };
 
   return (
