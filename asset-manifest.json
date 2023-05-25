@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Movies/static/css/main.51bac8b0.css",
-    "main.js": "/Movies/static/js/main.144a28be.js",
+    "main.css": "/Movies/static/css/main.ea8794bb.css",
+    "main.js": "/Movies/static/js/main.ee5069f6.js",
     "static/media/trailor.mp4": "/Movies/static/media/trailor.901c2eddb0a46f7c4a47.mp4",
     "index.html": "/Movies/index.html",
-    "main.51bac8b0.css.map": "/Movies/static/css/main.51bac8b0.css.map",
-    "main.144a28be.js.map": "/Movies/static/js/main.144a28be.js.map"
+    "main.ea8794bb.css.map": "/Movies/static/css/main.ea8794bb.css.map",
+    "main.ee5069f6.js.map": "/Movies/static/js/main.ee5069f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.51bac8b0.css",
-    "static/js/main.144a28be.js"
+    "static/css/main.ea8794bb.css",
+    "static/js/main.ee5069f6.js"
   ]
 }
