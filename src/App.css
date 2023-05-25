@@ -135,7 +135,7 @@ header nav .search input::placeholder{
    display: flex;
    align-items: center;
 }
-.content .btns a{
+.content .btns span{
    padding: 3px , 100px;
    font-size: 15px;
    font-weight: 600;
