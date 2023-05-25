@@ -8,9 +8,7 @@
 }
 
 
-#searchicon{
-  cursor: pointer;
-}
+
 .body{
   width: 100%;
   height: 100vh;
@@ -71,6 +69,7 @@ nav .logo-block{
 
 nav .search img{
    width: 20px;
+   cursor: pointer;
    
 }
 
