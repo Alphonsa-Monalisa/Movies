@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=56a33d01";
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=56a33d01";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
