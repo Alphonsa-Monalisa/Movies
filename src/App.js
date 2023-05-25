@@ -17,8 +17,15 @@ const App = () => {
   }, []);
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`,{
-      mode:"cors",);
+    const response = await fetch(`${API_URL}&s=${title}`, {
+    method: "GET",
+    mode: "cors",
+    headers: {
+        Authorization: `Bearer: ${token}`,
+        "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+    });
     const data = await response.json();
 
     setMovies(data.Search);
